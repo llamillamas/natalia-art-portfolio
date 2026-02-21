@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 245, 245, 245;
-  --background-rgb: 26, 26, 26;
+  --foreground-rgb: 26, 26, 26;
+  --background-rgb: 249, 247, 244;
 }
 
 body {
@@ -18,16 +18,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #f9f7f4;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #444;
+  background: #ccc;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #aaa;
 }
 
 /* Modal animation */

@@ -28,7 +28,7 @@ export default function BlogGrid({ posts }: BlogGridProps) {
       {posts.map((post) => (
         <article
           key={post.slug}
-          className="group bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-accent transition-all duration-300 hover:-translate-y-1"
+          className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-accent shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
         >
           <Link href={`/blog/${post.slug}`}>
             <div className="relative aspect-video overflow-hidden">
@@ -39,7 +39,7 @@ export default function BlogGrid({ posts }: BlogGridProps) {
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-60" />
             </div>
             <div className="p-6">
               <time className="text-sm text-accent font-medium">
@@ -48,7 +48,7 @@ export default function BlogGrid({ posts }: BlogGridProps) {
               <h3 className="text-xl font-semibold mt-2 mb-3 text-secondary group-hover:text-accent transition-colors line-clamp-2">
                 {post.title}
               </h3>
-              <p className="text-gray-400 text-sm line-clamp-3">
+              <p className="text-gray-600 text-sm line-clamp-3">
                 {post.excerpt}
               </p>
               <div className="mt-4 flex items-center text-accent text-sm font-medium">
