@@ -14,12 +14,12 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-gray-800">
+    <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
             <Image
-              src="/natalia-art-portfolio/images/logo.png"
+              src="/images/logo.png"
               alt="Natalia B. Llamas Logo"
               width={50}
               height={50}
@@ -73,7 +73,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-gray-800 pt-4">
+          <nav className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
             <div className="flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <Link

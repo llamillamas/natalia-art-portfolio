@@ -4,11 +4,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const artworks = [
-  { id: 1, src: '/natalia-art-portfolio/images/artwork-1.png', alt: 'Digital Illustration 1', title: 'Abstract Portrait' },
-  { id: 2, src: '/natalia-art-portfolio/images/artwork-2.png', alt: 'Digital Illustration 2', title: 'Geometric Design' },
-  { id: 3, src: '/natalia-art-portfolio/images/artwork-3.png', alt: 'Digital Illustration 3', title: 'Character Art' },
-  { id: 4, src: '/natalia-art-portfolio/images/artwork-4.jpg', alt: 'Digital Illustration 4', title: 'Nature Study' },
-  { id: 5, src: '/natalia-art-portfolio/images/artwork-5.jpg', alt: 'Digital Illustration 5', title: 'Modern Composition' },
+  { id: 1, src: '/images/artwork-1.png', alt: 'Digital Illustration 1', title: 'Abstract Portrait' },
+  { id: 2, src: '/images/artwork-2.png', alt: 'Digital Illustration 2', title: 'Geometric Design' },
+  { id: 3, src: '/images/artwork-3.png', alt: 'Digital Illustration 3', title: 'Character Art' },
+  { id: 4, src: '/images/artwork-4.jpg', alt: 'Digital Illustration 4', title: 'Nature Study' },
+  { id: 5, src: '/images/artwork-5.jpg', alt: 'Digital Illustration 5', title: 'Modern Composition' },
 ];
 
 export default function Gallery() {
